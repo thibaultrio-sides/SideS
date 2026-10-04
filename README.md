@@ -14,6 +14,7 @@ Statut
 SideS est une application Android native qui rend la route plus sûre pour les usagers vulnérables. Lorsqu'un cycliste, coureur, cavalier, utilisateur de trottinette ou de fauteuil roulant active le signalement, sa position est transmise toutes les 3 secondes : les conducteurs SideS proches (moins de 200 m) reçoivent une alerte sonore. L'application détecte aussi automatiquement les chutes et envoie un SOS par SMS aux contacts d'urgence. Une intégration Waze (programme Connected Citizens, candidature en cours d'approbation) est prévue pour alerter à terme tous les conducteurs Waze.
 
 Site officiel : https://sides.netlify.app (à mettre à jour) · Contact : thibault.rio@gmail.com
+Télécharger : sides.apk — v1.0 (Android 8.0 minimum)
 
 
 
@@ -277,7 +278,7 @@ Un compte Google Cloud pour l'API Maps
 
 Cloner le dépôt
 
- git clone https://github.com/thibaultrio/sides.git
+ git clone https://github.com/thibaultrio-sides/SideS.git
 
 
 
