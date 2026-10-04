@@ -277,7 +277,7 @@ Un compte Google Cloud pour l'API Maps
 
 Cloner le dépôt
 
- git clone https://github.com/thibaultrio/sides-app.git
+ git clone https://github.com/thibaultrio/sides.git
 
 
 
