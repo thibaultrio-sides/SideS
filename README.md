@@ -9,7 +9,7 @@ Kotlin
 Licence  
 Statut
 
-**SideS** est une application Android native qui rend la route plus sûre pour les usagers vulnérables. Lorsqu'un cycliste, coureur, cavalier, utilisateur de trottinette ou de fauteuil roulant active le signalement, sa position est transmise toutes les 3 secondes : les conducteurs SideS proches (moins de 200 m) reçoivent une alerte sonore. L'application détecte aussi automatiquement les chutes et envoie un SOS par SMS aux contacts d'urgence. Une intégration Waze (programme Connected Citizens, candidature en cours d'approbation) est prévue pour alerter à terme tous les conducteurs Waze.
+**SideS** est une application Android native qui rend la route plus sûre pour les usagers vulnérables. Lorsqu'un cycliste, coureur, cavalier, utilisateur de trottinette ou de fauteuil roulant active le signalement, sa position est transmise toutes les 3 secondes : les conducteurs SideS proches (moins de 200 m) reçoivent une alerte sonore. L'application détecte aussi automatiquement les chutes et envoie un SOS par SMS aux contacts d'urgence. Une intégration Waze (programme Waze for Cities, candidature déposée et en cours d'examen) est prévue pour alerter à terme tous les conducteurs Waze.
 
 **Site officiel :** [https://applisides.netlify.app](https://applisides.netlify.app) · **Contact :** [thibault.rio@gmail.com](mailto:thibault.rio@gmail.com)  
 **Télécharger :** [sides.apk — v1.0](https://github.com/thibaultrio-sides/SideS/releases/download/v1.0/sides.apk) (Android 8.0 minimum)
@@ -48,7 +48,7 @@ Chaque année, les usagers vulnérables sont les premières victimes de la route
 
 ### Bientôt, pour tous les conducteurs
 
-- 🔵 **Signalements Waze automatiques** via le programme Waze Connected Citizens (candidature en cours d'approbation) — aucun besoin d'installer quoi que ce soit
+- 🔵 **Signalements Waze automatiques** via le programme Waze for Cities (candidature déposée, en cours d'examen) — aucun besoin d'installer quoi que ce soit
 
 ## 🔄 Comment ça marche
 
@@ -69,7 +69,7 @@ Chaque année, les usagers vulnérables sont les premières victimes de la route
                                 │  Son + vibration + carte │
                                 └──────────────────────────┘
 
-> ℹ️ Le flux Waze (bloc de gauche) sera actif après approbation du programme Connected Citizens. Les alertes FCM vers les conducteurs SideS fonctionnent déjà.
+> ℹ️ Le flux Waze (bloc de gauche) sera actif si la candidature Waze for Cities est acceptée. Les alertes FCM vers les conducteurs SideS fonctionnent déjà.
 ```
 
 ## 🔒 Confidentialité — la transparence d'abord
@@ -152,7 +152,7 @@ SideS/
 
 ## 🗺️ Feuille de route
 
-- [ ] **Signalements Waze (Waze for Cities)** — à l'étude, via un partenariat avec une collectivité
+- [ ] **Signalements Waze (Waze for Cities)** — candidature déposée, en cours d'examen
 - [ ] Authentification Firebase (anonyme, pour la vie privée)
 - [ ] Intégration Apple CarPlay / Android Auto
 - [ ] Détection de chute depuis Wear OS
