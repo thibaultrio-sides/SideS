@@ -93,7 +93,7 @@ SideS est conçu autour d'un principe : **collecter le strict minimum, ne rien g
 
 ```
 SideS/
-├── app/src/main/java/com/veloguard/
+├── app/src/main/java/com/sides/
 │   ├── MainActivity.kt              # Écran principal
 │   ├── services/
 │   │   └── TrackingService.kt       # Service GPS + détection chute (ForegroundService)
@@ -101,6 +101,8 @@ SideS/
 │   │   ├── EmergencyContactActivity.kt  # Gestion contacts d'urgence
 │   │   ├── DriverActivity.kt        # Mode conducteur
 │   │   └── MapActivity.kt           # Carte temps réel
+│   ├── utils/
+│   │   └── SecurePrefs.kt           # Préférences chiffrées (Android Keystore)
 │   ├── adapters/
 │   │   └── ContactAdapter.kt        # RecyclerView contacts
 │   └── models/
