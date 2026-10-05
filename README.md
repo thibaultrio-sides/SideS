@@ -152,7 +152,7 @@ SideS/
 
 ## 🗺️ Feuille de route
 
-- [ ] **Signalements Waze (CCP)** — en attente d'approbation du programme Connected Citizens
+- [ ] **Signalements Waze (Waze for Cities)** — à l'étude, via un partenariat avec une collectivité
 - [ ] Authentification Firebase (anonyme, pour la vie privée)
 - [ ] Intégration Apple CarPlay / Android Auto
 - [ ] Détection de chute depuis Wear OS
